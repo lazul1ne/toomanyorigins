@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[43,)"
 license="MIT"
-issueTrackerURL="https://github.com/MerchantPug/apugli/issues"
+issueTrackerURL="https://github.com/lazul1ne/apugli/issues"
 
 [[mods]]
 modId="toomanyorigins"
 version="${version}"
 displayName="TooManyOrigins"
 #updateJSONURL=""
-displayURL="https://github.com/MerchantPug/toomanyorigins"
+displayURL="https://github.com/lazul1ne/toomanyorigins"
 logoFile="pack.png"
 authors="MerchantPug"
 description="An addon to Origins loosely inspired by the original mod. "
