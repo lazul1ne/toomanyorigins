@@ -5,7 +5,8 @@
   "name": "TooManyOrigins",
   "description": "An addon to Origins loosely inspired by the original mod.",
   "authors": [
-    "MerchantPug"
+    "MerchantPug",
+    "Lazuline"
   ],
   "contributors": [
     "Omniv",
@@ -13,10 +14,10 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/toomanyorigins/",
-    "sources": "https://github.com/MerchantPug/toomanyorigins/",
-    "issues": "https://github.com/MerchantPug/toomanyorigins/issues/"
+    "sources": "https://github.com/lazul1ne/toomanyorigins/",
+    "issues": "https://github.com/lazul1ne/toomanyorigins/issues/"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0",
   "icon": "pack.png",
   "environment": "*",
   "entrypoints": {

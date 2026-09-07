@@ -138,9 +138,7 @@ dependencies {
     //Mixin
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     // Water Walking Fix
-    implementation(jarJar(fg.deobf("maven.modrinth:water-walking-fix-forge:${wwf_version}"))) {
-        jarJar.ranged(it, "[${wwf_version},)")
-    }
+
     //Service
     compileOnly group:'com.google.auto.service', name:'auto-service', version:'1.0.1'
     annotationProcessor group:'com.google.auto.service', name:'auto-service', version:'1.0.1'
@@ -236,9 +234,6 @@ tasks.register('curseforge', TaskPublishCurseForge) {
     common_embedded_deps.split(", ").each {
         mainFile.addEmbedded(it)
     }
-    forge_embedded_deps.split(", ").each {
-        mainFile.addEmbedded(it)
-    }
 }
 
 modrinth {
@@ -257,12 +252,6 @@ modrinth {
         }
         forge_required_deps.split(", ").each {
             required.project it
-        }
-        forge_embedded_deps.split(", ").each {
-            embedded.project it
-        }
-        forge_embedded_deps.split(", ").each {
-            embedded.project it
         }
     }
 }
