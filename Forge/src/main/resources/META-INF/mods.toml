@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="MIT"
+license="LGPL-3.0"
 issueTrackerURL="https://github.com/lazul1ne/apugli/issues"
 
 [[mods]]
@@ -10,7 +10,7 @@ displayName="TooManyOrigins"
 #updateJSONURL=""
 displayURL="https://github.com/lazul1ne/toomanyorigins"
 logoFile="pack.png"
-authors="MerchantPug"
+authors="MerchantPug, Lazuline"
 description="An addon to Origins loosely inspired by the original mod. "
 
 [[dependencies.toomanyorigins]]
