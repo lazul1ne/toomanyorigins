@@ -22,8 +22,16 @@ repositories {
         url = 'https://maven.ladysnake.org/snapshots/'
     }
     maven {
+        name = "Ladysnake Libs"
+        url = "https://maven.ladysnake.org/releases"
+    }
+    maven {
         name = 'ParchmentMC'
         url = 'https://maven.parchmentmc.org'
+    }
+    maven {
+        name = "Greenhouse Releases"
+        url = 'https://maven.greenhouse.lgbt/releases/'
     }
     mavenCentral()
     mavenLocal()

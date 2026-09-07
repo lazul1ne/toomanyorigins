@@ -87,6 +87,10 @@ repositories {
         name = 'ParchmentMC'
         url = 'https://maven.parchmentmc.org'
     }
+    maven {
+        name = "Greenhouse Releases"
+        url = 'https://maven.greenhouse.lgbt/releases/'
+    }
     mavenCentral()
     mavenLocal()
 }
