@@ -18,6 +18,10 @@ repositories {
         url = 'https://repo.spongepowered.org/repository/maven-public/'
     }
     maven {
+        name = "Ladysnake Libs"
+        url = "https://maven.ladysnake.org/releases"
+    }
+    maven {
         name = "JitPack"
         url = 'https://jitpack.io'
     }
